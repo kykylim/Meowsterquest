@@ -70,7 +70,7 @@ public class BattleSystem {
         } else {
             // Show player ASCII art when attacking
             showPlayerAttackArt();
-            
+
             int damage = player.attack(choice - 1);
             if (damage > 0) {
                 if (radiantBurstDamage > 0) {
@@ -103,9 +103,8 @@ public class BattleSystem {
 
     private void showPlayerAttackArt() {
         CatBreed breed = player.getBreed();
-    CatColor color = player.getColor();
+        CatColor color = player.getColor();
 
-        // Use the new attack art method
         String art = breed.ColoredAsciiAttackArt(color);
 
         System.out.println(art);

@@ -84,7 +84,7 @@ public class Characters {
         System.out.println("=".repeat(157));
         Main.pause(2000);
 
-         TextUtil.printMiddle("""
+        TextUtil.printCentered("""
             
                                   |>>>
                                   |

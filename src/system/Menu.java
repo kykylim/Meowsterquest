@@ -70,7 +70,7 @@ public class Menu {
         System.out.println();
         Main.pause(1500);
         
-        TextUtil.printMiddle ("""
+        TextUtil.printCentered ("""
          |>>>
          |
      _  _|_  _
@@ -102,7 +102,7 @@ public class Menu {
         TextUtil.typewriterPrint("[Prisoner]: \"Pawshire will never forget your courage and sacrifice.\"", 40); 
         Main.pause(1500);
 
-        TextUtil.printMiddle("""
+        TextUtil.printCentered("""
      |@@@@|     |####|
      |@@@@|     |####|
      |@@@@|     |####|
@@ -128,7 +128,7 @@ public class Menu {
 
     public void showEndScreen() { 
         Main.clearScreen();
-        TextUtil.printMiddle("----- GAME COMPLETE ------", 157);
+        TextUtil.printCentered("----- GAME COMPLETE ------", 157);
 
         System.out.print("Rate your experience (1-5): ");
         Main.getIntInput(1, 5);
